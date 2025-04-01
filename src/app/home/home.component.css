@@ -1,5 +1,5 @@
 
-/* @media only screen and (min-width: 768px) { */
+@media only screen and (min-width: 768px) {
 main
 {
     background-color: rgb(10, 10, 10);
@@ -28,24 +28,24 @@ img
    font-family: fantasy;
    font-weight: 800;
  }
-/* } */
+}
 
-/* 
 @media only screen and (max-width: 767px) {
 
    .about-us
    {   
       color: white;
       text-align: center;
-      margin-top: 2em;
-      font-size: medium;
+      margin-top: -200em;
+      font-size: 1px;
    
+   }
       
-      main
-{
+   main {
     background-color: rgb(10, 10, 10);
     height:100vh; 
  }
+
 img
 {
     width: 100%;
@@ -59,7 +59,7 @@ img
     margin-top: -36em;
    color: white;
    text-align: center; 
+   font-size: 1px;
  }
 
 }
-} */
