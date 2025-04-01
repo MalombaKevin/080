@@ -29,14 +29,14 @@ img
    font-weight: 800;
  }
 }
-
+/* 
 @media only screen and (max-width: 767px) {
 
    .about-us
    {   
       color: white;
       text-align: center;
-      margin-top: -200em;
+      margin-top: -500em;
       font-size: 1px;
    
    }
@@ -62,4 +62,4 @@ img
    font-size: 1px;
  }
 
-}
+} */
