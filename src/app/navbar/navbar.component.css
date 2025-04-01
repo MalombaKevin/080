@@ -1,0 +1,125 @@
+@media only screen and (min-width: 768px) {
+body{
+   display: flex; 
+   gap: 2em;
+}
+
+p{
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+main
+{padding-top: 2em;
+/* margin-left: 2.5em; */
+width: 15vw;
+cursor: progress;   
+}
+
+.logo{
+border-radius: 50%;
+width: 8em;
+}
+.active-link{
+    font-weight: bold;
+  /* border: 1px dotted black; */
+  border-left: 1px solid black;
+  border-width: 5px;
+  padding: 2px;
+  border-radius: 100px;
+}
+
+.main-links
+{
+   align-items: center;
+   margin-left: 2.7em;
+   font-size: medium;
+}
+
+.icons{
+   font-size: x-large;
+   cursor: grab;
+}
+
+.linkedin{
+    font-size: x-large;
+    cursor: grab;
+    color: blue;
+ }
+
+ .whatsapp{
+    font-size: x-large;
+    cursor: grab;
+    color: green;
+ }
+
+ .youtube{
+    font-size: x-large;
+    cursor: grab;
+    color: red;
+ }
+
+span
+{
+    letter-spacing: 1px;
+}
+
+.other-tabs
+{
+    width: 85vw;
+}
+
+.mobile-navigation
+{
+    display: none;
+   ;
+}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  
+
+
+   .nav-links
+   {
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    align-items: center;
+    padding: 4px;
+    color: white;
+
+
+        
+     }
+
+     main{
+       display: none;
+       
+    }
+
+    .active-link{
+        font-weight: bold;
+      /* border: 1px dotted black; */
+      border-bottom: 1px solid blueviolet;
+      /* border-top: 1px solid rgb(235, 9, 9); */
+      color: orangered;
+      border-width: 5px;
+      padding: 2px;
+      border-radius: 100px;
+    }
+
+
+    
+
+}
+    
