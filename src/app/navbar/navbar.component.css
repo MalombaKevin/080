@@ -107,15 +107,21 @@ span
        
     }
 
+    .icon-text{
+      font-size: small;
+      padding-top: -5em;
+      
+   }
+
     .active-link{
-        font-weight: bold;
+        /* font-weight: bold; */
       /* border: 1px dotted black; */
-      border-bottom: 1px solid  rgb(4, 2, 17);
+      /* border-bottom: 1px solid  rgb(4, 2, 17); */
       /* border-top: 1px solid rgb(235, 9, 9); */
       color: orangered;
-      border-width: 5px;
-      padding: 2px;
-      border-radius: 100px;
+      /* border-width: 5px; */
+      /* padding: 2px; */
+      /* border-radius: 100px; */
   
     }
 
