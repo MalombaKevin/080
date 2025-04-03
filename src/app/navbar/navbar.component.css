@@ -18,7 +18,10 @@ cursor: progress;
 
 .logo{
 border-radius: 50%;
-width: 8em;
+width: 10em;
+border: 3px dotted black;
+padding: 2px;
+
 }
 .active-link{
     font-weight: bold;
@@ -26,7 +29,7 @@ width: 8em;
   border-left: 1px solid black;
   border-width: 5px;
   padding: 2px;
-  border-radius: 100px;
+  /* border-radius: 100px; */
 }
 
 .main-links
