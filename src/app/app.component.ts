@@ -32,15 +32,15 @@ export class AppComponent implements OnInit {
     });
     this.meta.updateTag({
       property: 'og:image',
-      content: 'malwike1.png',
+      content: 'https://x.com/kmalomba/status/1908629920575602969/photo/1',
     });
-    this.meta.updateTag({ property: 'og:url', content: 'https://www.mysite.com' });
+    this.meta.updateTag({ property: 'og:url', content: 'https://malwike.vercel.app/malwike-technologies' });
 
     // Twitter Card Meta Tags (for Twitter)
     this.meta.updateTag({ name: 'twitter:card', content: 'WELCOME TO MALWIKE TECHNOLOGIES  YOUR FIRST CLASS TECH PARTNER' });
     this.meta.updateTag({ name: 'twitter:title', content: 'Malwike Technologies' });
     this.meta.updateTag({ name: 'twitter:description', content: 'WELCOME TO MALWIKE TECHNOLOGIES  YOUR FIRST CLASS TECH PARTNER' });
-    this.meta.updateTag({ name: 'twitter:image', content: 'malwike1.png' });
+    this.meta.updateTag({ name: 'twitter:image', content: 'https://x.com/kmalomba/status/1908629920575602969/photo/1' });
     this.meta.updateTag({ name: 'twitter:site', content: '@mysite' });
     this.meta.updateTag({ name: 'twitter:creator', content: '@KMalomba' });
   }
