@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NgxTypedJsModule } from 'ngx-typed-js'
 import { Meta, Title } from '@angular/platform-browser';
 
@@ -10,7 +10,7 @@ import { Meta, Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css'],
 
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   // title = 'malwike';
 
   constructor(private meta: Meta, private title: Title) {}
