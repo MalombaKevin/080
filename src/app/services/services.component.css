@@ -12,6 +12,7 @@ main{
   justify-content: center;
  flex-wrap: wrap;
  margin-top: 3em;
+ margin-bottom: 4em;
  gap: 3em;
 }
 
