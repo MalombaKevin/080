@@ -3,6 +3,8 @@ import { CommonModule, DatePipe } from '@angular/common';
 import { NavbarComponent } from "../navbar/navbar.component";
 import { GreetingPipe } from '../greeting.pipe';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+
 
 import { NgxTypedJsModule } from 'ngx-typed-js'; 
 
@@ -16,7 +18,8 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
     DatePipe,
     GreetingPipe,
     NgxTypedJsModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   
   ],
   templateUrl: './home.component.html',
@@ -29,6 +32,8 @@ throw new Error('Method not implemented.');
  
 dateToday = new Date
 greeting: string|undefined;
+
+
 
 
 
