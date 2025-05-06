@@ -15,7 +15,7 @@ const routes: Routes = [
       children: [
         {path: "", redirectTo: "malwike-technologies", pathMatch: "full"},
         { path: 'malwike-technologies', component: HomeComponent },
-        { path: 'services', component: ServicesComponent },
+        { path: 'services', component: ServicesComponent},
         { path: 'contacts', component: ContactsComponent },
         { path: 'careers', component: CareersComponent },
         { path: 'clients', component:ClientsComponent},

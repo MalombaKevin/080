@@ -3,3 +3,59 @@ body{
     height:100vh; 
     padding: 10px;
  }
+
+
+ .card{
+    height: 18rem;
+    width: 20rem;
+    margin-top: 1em;
+   /* From https://css.glass */
+  background: rgba(114, 114, 114, 0.2);
+  /* background: linear-gradient(to bottom,  rgba(243, 7, 7, 0.2) 0%, rgb(4, 2, 17)0%, rgba(114, 114, 114, 0.2) 50%); */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white
+  /* mask: radial-gradient(60% 70px at bottom,transparent 100%,black); */
+  }
+
+
+  /* .email i, .phone i{
+   font-size: xx-large;
+} */
+
+.email a, .phone a{
+   text-decoration: none;
+   color: white;
+}
+
+.email a:hover, .phone a:hover{
+   
+   font-family: 'Times New Roman', Times, serif;
+   border: 1px solid orangered;
+   padding: 3px;
+   text-shadow: yellow;
+}
+
+
+.email i{
+   color: red;
+}
+
+ .phone i{
+  color: blueviolet;
+}
+
+.email i, .phone i{
+   font-size: x-large;
+}
+
+.card-body{
+   font-size: medium;
+}
+
+.email ,.phone {
+  margin-left: 2em;
+}

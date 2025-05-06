@@ -1,7 +1,8 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
 body{
    display: flex; 
    gap: 2em;
+  
 }
 
 p{
@@ -9,11 +10,18 @@ p{
     font-weight: 200;
 }
 
+header{
+   font-family: sans-serif;
+   font-weight: 200;
+}
+
 main
 {padding-top: 2em;
 /* margin-left: 2.5em; */
-width: 15vw;
+width: 15%;
 cursor: progress;   
+/* z-index: 0; */
+position: fixed;
 }
 
 .logo{
@@ -69,7 +77,8 @@ span
 
 .other-tabs
 {
-    width: 85vw;
+    width: 85%;
+    margin-left: 15em;
 }
 
 .mobile-navigation
@@ -81,7 +90,7 @@ span
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
 
   
 
