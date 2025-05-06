@@ -92,4 +92,62 @@ img
    
 }
 
+.card{
+   height: 16rem;
+   width: 20rem;
+   margin-top: 1em;
+  /* From https://css.glass */
+background: rgba(14, 6, 20, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.3px);
+-webkit-backdrop-filter: blur(4.3px);
+border: 1px solid rgba(14, 6, 20, 0.3);
+ }
+ .card-img-top{
+   width: 5em;
+   border-radius: 55%;
+   margin-top: -26px;
+   display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 30%;
+}
+
+.fa-youtube{
+   color: red;
+   font-size: xx-large;
+   font-weight: 600;
+}
+
+.fa-tiktok{
+   color: black;
+   font-size: xx-large;
+   font-weight: 600;
+}
+
+.fa-instagram{
+   color: red;
+   font-size: xx-large;
+   font-weight: 600;
+}
+
+.fa-x-twitter{
+   color:blue;
+   font-size: xx-large;
+   font-weight: 600;
+}
+
+.socials{
+   display: flex;
+   justify-content: space-between;
+}
+
+.fa-brands:hover{ 
+  border-bottom:4px solid black;
+  padding: 1px;
+}
+
+
+
 }
