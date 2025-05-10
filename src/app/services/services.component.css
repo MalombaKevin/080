@@ -50,9 +50,17 @@ display: block;
   width: 30%;
 }
 
-button{
-display: none;
+ .buttons{
+ display: flex;
+justify-content: center;
+gap: 1em;
+
 }
+/* button{
+ display: flex;
+justify-content: center;
+gap: 1em;
+} */
 
     
 

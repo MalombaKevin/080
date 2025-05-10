@@ -8,6 +8,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { HomeComponent } from './home/home.component';
 import { ClientsComponent } from './clients/clients.component';
 import { HubComponent } from './hub/hub.component';
+import { QuoteComponent } from './quote/quote.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { HubComponent } from './hub/hub.component';
     AppComponent,
     ClientsComponent,
     HubComponent,
+    QuoteComponent,
   
     
    

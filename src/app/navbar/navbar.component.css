@@ -87,6 +87,27 @@ span
    ;
 }
 
+.quote-btn
+{ 
+   display: none;
+ 
+   border: 4px solid white;
+  padding: 4px;
+   background-color: blueviolet;
+   color: white;
+   font-size: small;
+   /* width: 80%; */
+  }
+
+  .quote-btn:hover
+{
+   border: 4px solid white;
+   padding: 4px;
+   background-color: blueviolet;
+
+  }
+
+
 }
 
 
