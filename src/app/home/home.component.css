@@ -163,6 +163,8 @@ border: 1px solid rgba(14, 6, 20, 0.3);
    background-color: transparent;
    color: goldenrod;
    border: 1px solid white;
+   padding: 5px;
+   font-size: large;
 }
 
 
