@@ -40,6 +40,15 @@ img
    font-family: fantasy;
    font-weight: 800;
  }
+
+  .btn-services{
+   width: 15em;
+   background-color: transparent;
+   color: goldenrod;
+   border: 1px solid white;
+}
+
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -148,6 +157,13 @@ border: 1px solid rgba(14, 6, 20, 0.3);
   padding: 1px;
 }
 
+
+  .btn-services{
+   width: 15em;
+   background-color: transparent;
+   color: goldenrod;
+   border: 1px solid white;
+}
 
 
 }

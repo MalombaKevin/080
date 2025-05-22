@@ -1,0 +1,46 @@
+<body>
+<!-- modify this form HTML and place wherever you want your form -->
+
+<h4 align="center" class="text-light pt-3">MALWIKE TECHNOLOGIES DIRECT MESSSAGE</h4>
+
+<!-- <div class="services container-fluid" align="center">
+  <button class="btn-services">Brand Management</button><br>
+  <button class="btn-services">Social Media Management</button>
+  <button class="btn-services">Web and App Development</button> 
+  <button class="btn-services">Search Engine Optimization</button>
+  <br>
+  
+  <button class="btn-services">Photography and Videography</button>
+  <button class="btn-services">Graphic Design</button>
+</div> -->
+
+
+<div class="form" align="center">
+<form
+  action="https://formspree.io/f/xldbvyoq"
+  method="POST"
+>
+  <label align="left" class="fw-bold">
+    Email<br>
+    <input type="email" name="email" placeholder="eg: user@gmail.com" required>
+  </label>
+
+  <br>
+  <br>
+  
+  <label align="left" class="fw-bold">
+    Service Requested <br>
+    <textarea name="message" placeholder="Welcome to malwike technologies. Kindly send us a message for any of our services. We will get back to you as soon as possible. Thank you for choosing us." required></textarea>
+  </label>
+
+  <br>
+  <!-- your other form fields go here -->
+  <button type="submit" class="btn btn-primary">Send Message</button>
+</form>
+
+
+  <ngx-typed-js [strings]="['Website Development ^2000', 'App Development ^2000', 'Graphic Design ^2000', 'Search Engine Optimization ^2000', 'Social Media Management ^2000', 'Photography and Videography ^2000', 'Graphic Design ^2000' ]" [typeSpeed]="100" [loop]="false" [showCursor]="false">
+ <p class="typing text-warning text-animation" ></p>
+                  </ngx-typed-js> 
+</div>
+</body>

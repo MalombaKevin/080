@@ -5,6 +5,10 @@ body{
   
 }
 
+footer{
+   display: block;
+}
+
 p{
     font-family: sans-serif;
     font-weight: 200;
@@ -39,6 +43,43 @@ padding: 2px;
   padding: 2px;
   /* border-radius: 100px; */
 }
+
+ .quote-btn{
+    width: 70%;
+    /* background-color: blueviolet; */
+    color: black;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+  
+}
+
+.quote-btn:hover{
+   font-weight: bolder;
+  background-color: blueviolet;
+  border: 1px solid blueviolet; 
+  border-radius: 0%;
+  border-radius: 0%;
+  color: white;
+  padding: 5px;
+  border-radius: 100px;
+  
+}
+
+ .quote-btn.active-link{
+    font-weight: bold;
+  background-color: blueviolet;
+  border: 1px solid blueviolet; 
+  border-radius: 0%;
+  color: white;
+  padding: 5px;
+  border-radius: 100px;
+  
+
+}
+
 
 .main-links
 {
@@ -87,25 +128,6 @@ span
    ;
 }
 
-.quote-btn
-{ 
-   display: none;
- 
-   border: 4px solid white;
-  padding: 4px;
-   background-color: blueviolet;
-   color: white;
-   font-size: small;
-   /* width: 80%; */
-  }
-
-  .quote-btn:hover
-{
-   border: 4px solid white;
-   padding: 4px;
-   background-color: blueviolet;
-
-  }
 
 
 }

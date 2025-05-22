@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ServicesComponent } from './services/services.component'; 
 import { ClientsComponent } from './clients/clients.component';  
 import { HubComponent } from './hub/hub.component'; 
+import { GetQuoteComponent } from './get-quote/get-quote.component';
 
 const routes: Routes = [
 
@@ -19,7 +20,8 @@ const routes: Routes = [
         { path: 'contacts', component: ContactsComponent },
         { path: 'careers', component: CareersComponent },
         { path: 'clients', component:ClientsComponent},
-        { path: 'hub', component: HubComponent}
+        { path: 'hub', component: HubComponent},
+        { path: 'getQuote', component: GetQuoteComponent}
       
       
       ]

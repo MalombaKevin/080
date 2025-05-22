@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(4, 2, 17);
+    height:100vh; 
+ }
+
+ .form{
+   padding: 2em; 
+ }
+
+
+
+ form{
+    padding-top: 3em;
+    padding-bottom: 3em;
+   /* From https://css.glass */
+  background: rgba(114, 114, 114, 0.2);
+  /* background: linear-gradient(to bottom,  rgba(243, 7, 7, 0.2) 0%, rgb(4, 2, 17)0%, rgba(114, 114, 114, 0.2) 50%); */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  width: 50%;
+  text-align: center;
+
+   
+ }
+
+
+  textarea{
+   width: 30em;
+   height: 10em;
+   background-color: transparent;
+   color: whitesmoke;
+   padding: 5px;
+ }
+
+
+  label{
+   color: gold;
+ }
+
+
+
+  input{
+   width: 30em;
+   background-color: transparent;
+   color: whitesmoke;
+   border: 1px solid white;
+
+ }
+
+ .btn-services{
+   width: 15em;
+   background-color: transparent;
+   color: goldenrod;
+   border: 1px solid white;
+}
+
+ .btn-services:hover{
+   width: 15em;
+   background-color: transparent;
+   color: red;
+   border: 1px solid white;
+
+ }
